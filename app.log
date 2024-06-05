@@ -32,3 +32,16 @@ INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 499-864-404
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:09] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:09] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:09] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:09] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:09] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:09] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:09] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:10] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 00:16:10] "GET /api/orders_over_time HTTP/1.1" 200 -
